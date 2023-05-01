@@ -96,7 +96,7 @@ const FooterData = {
     ],
 
 
-    copyright: "Copyright by Modina Theme - 2020",
+    copyright: "Copyright by Andent - 2023",
 
 }
 
