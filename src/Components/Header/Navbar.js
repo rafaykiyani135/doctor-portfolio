@@ -7,11 +7,11 @@ const Navbar = () => {
             <div className="main-menu">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-3 col-lg-2 d-flex col-5">
+                        <div className="col-md-3 col-lg-2 d-flex col-5" style={{textAlign : "center", justifyContent:'center', paddingTop:"8px",paddingRight:"5px"}}>
                             <Link className="navbar-brand logo" to='/'>
-                                <img src={require("../../assets/img/logo.png") } alt="donto" />
+                                <h3>Andent</h3>
                             </Link>
-                        </div>
+                            </div>
                         <div className="col-lg-10 col-md-9 d-none d-lg-block text-lg-right">
                             <nav id="responsive-menu" className="menu-style-one">
                                 <ul className="menu-items">

@@ -465,6 +465,10 @@ body.style-two>a {
     color: #000066;
 }
 
+.navbarText{
+    text-align: center;
+}
+
 .menu-style-one ul li ul {
     position: absolute;
     width: 190px;
