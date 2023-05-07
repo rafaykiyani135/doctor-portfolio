@@ -22,11 +22,11 @@ function Main() {
                                     <ul>
                                         <li>
                                             <i className="icon fal fa-envelope" />
-                                            <span>info@example.com</span>
+                                            <span><a href="mailto:info@andentclinic.al">info@andentclinic.al</a></span>
                                         </li>
                                         <li>
                                             <i className="icon fal fa-phone" />
-                                            <span>+91-7052-101-786 (add links later)</span>
+                                            <span>+393792993475(add whatsapplater)</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -77,27 +77,25 @@ function Main() {
                                                 <li className="has-sub">
                                                     <Link to="/service">Servizi</Link>
                                                     <ul>
-                                                        <li>
-                                                            <Link to="/singleservice"> Root Canal</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/singleservice">Alignment Teeth</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/singleservice"> Cosmetic Teeth</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/singleservice">Oral Hygiene</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/singleservice">Live Advisory</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/singleservice">Cavity Inspection</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/service">Services</Link>
-                                                        </li>
+                                                    <li>
+                                                        <Link to="/implantology">Implantologia</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/crown">Corone Dentali e Protesi Dentali</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/endodontics"> Endodonzia</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/periodontal-diseases">Malattie Parondontali</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/align-orthodontics">Ortodonzia Invisalign</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/dental-veneers">Faccette Dentali</Link>
+                                                    </li>
+                                                    
                                                     </ul>
                                                 </li>
                                                 <li className="has-sub">
@@ -195,22 +193,22 @@ function Main() {
                                                             {Services &&
                                                             <ul style={{ display: "block" }}>
                                                                 <li>
-                                                                    <Link to="/singleservice"> Root Canal</Link>
+                                                                    <Link to="/singleservice">Implantologia</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link to="/singleservice">Alignment Teeth</Link>
+                                                                    <Link to="/singleservice">Corone Dentali e Protesi Dentali</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link to="/singleservice"> Cosmetic Teeth</Link>
+                                                                    <Link to="/singleservice"> Endodonzia</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link to="/singleservice">Oral Hygiene</Link>
+                                                                    <Link to="/singleservice">Malattie Parondontali</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link to="/singleservice">Live Advisory</Link>
+                                                                    <Link to="/singleservice">Ortodonzia Invisalign</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link to="/singleservice">Cavity Inspection</Link>
+                                                                    <Link to="/singleservice">Faccette Dentali</Link>
                                                                 </li>
                                                                 <li>
                                                                     <Link to="/services">Services</Link>

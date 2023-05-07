@@ -81,24 +81,24 @@ function Main() {
                                 </div>
                                 <div className="footer-link">
                                 <ul>
-                                    <li>
-                                    <Link to="/singleservice">Implantologia</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/singleservice">Corone Dentali e Protesi &nbsp;  &nbsp; &nbsp; &nbsp;Dentali</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/singleservice">Endodonzia</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/singleservice">Malattie Parondontali</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/singleservice">Faccette Dentali</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/singleservice">Ortodonzia Invisalign</Link>
-                                    </li>
+                                <li>
+                                    <Link to="/implantology">Implantologia</Link>
+                                </li>
+                                <li>
+                                    <Link to="/crown">Corone Dentali e Protesi &nbsp;&nbsp;&nbsp;&nbsp; Dentali</Link>
+                                </li>
+                                <li>
+                                    <Link to="/endodontics"> Endodonzia</Link>
+                                </li>
+                                <li>
+                                    <Link to="/periodontal-diseases">Malattie Parondontali</Link>
+                                </li>
+                                <li>
+                                    <Link to="/align-orthodontics">Ortodonzia Invisalign</Link>
+                                </li>
+                                <li>
+                                    <Link to="/dental-veneers">Faccette Dentali</Link>
+                                </li>
                                 </ul>
                                 </div>
                             </div>

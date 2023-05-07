@@ -8,7 +8,6 @@ import Contact from '../components/Contact-Us/Main'
 import Blog from '../components/Blog/Main';
 import BlogDdeatils from '../components/Blogdetails/Main'
 import Service from '../components/Service/Main'
-import Servicedeatils from '../components/Servicesdeatils/Main'
 import Gallery from '../components/Pages/Gallarymen'
 import Pricing from '../components/PagesMen/Pricing/Main';
 import Faq from '../components/PagesMen/Faq/Main'
@@ -18,6 +17,12 @@ import Shop from '../components/PagesMen/Shop/Main'
 import ShopDetails from '../components/PagesMen/ShopDetails/Main'
 import Hometwo from '../components/HomeTwo/Main'
 import HomeThree from '../components/HomeThree/Main'
+import Implantology from "../components/ServisesecMen/Implantology";
+import Crown from "../components/ServisesecMen/Crown";
+import Endodontics from "../components/ServisesecMen/Endodontics"
+import Periodontal from "../components/ServisesecMen/Periodontal"
+import Align from "../components/ServisesecMen/Align";
+import Veneer from "../components/ServisesecMen/Veneer";
 
 function Index() {
 
@@ -26,20 +31,22 @@ function Index() {
   useEffect(() => {
     window.scroll(0, 0)
 }, [path]);
-
   return (
     <>
       <Header/>
-
       <Routes>
-
+        <Route path='/dental-veneers' element={<Veneer/>}/>
+        <Route path='/periodontal-diseases' element={<Periodontal/>}/>
+        <Route path='/align-orthodontics' element={<Align/>}/>
+        <Route path='/implantology' element={<Implantology/>}/>
+        <Route path='/endodontics' element={<Endodontics/>}/>
+        <Route path="/crown" element={<Crown/>}/>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={ <Contact/>} />
         <Route path="/blog" element={ <Blog/>} />
         <Route path="/blogdetails" element={ <BlogDdeatils/>} />
         <Route path="/service" element={ <Service/>} />
-        <Route path="/singleservice" element={ <Servicedeatils/>} />
         <Route path="/gallery" element={ <Gallery/>} />
         <Route path="/pricing" element={ <Pricing/>} />
         <Route path="/faq" element={ <Faq/>} />
