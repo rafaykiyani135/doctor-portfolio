@@ -1,0 +1,47 @@
+<div className="about-text second-about" style={{paddingRight:"20px", textAlign:"center"}}>
+                            <span style={{paddingTop:"5px"}}>16</span>
+                            <p>Years of Experience</p>
+                        </div>
+
+
+
+<h2>
+                                    <Slider {...settings}>
+                                        <div className='col-4 d-flex justify-content-center slider-content'>
+                                            <span>
+                                                <img src={imageOne} alt='image1'/>
+                                            </span>
+                                            &nbsp;
+                                            <h4 style={{transform:"translate(0%,25%)",color: "#00173c"}}>
+                                                Free Stay for 2 People
+                                            </h4>
+                                        </div>
+                                        <div className='col-4 d-flex justify-content-center'>
+                                            <span>
+                                                <img src={imageTwo} alt='image1'/>
+                                            </span>
+                                            &nbsp;
+                                            <h4 style={{transform:"translate(0%,25%)",color: "#00173c"}}>
+                                                Certified Dentists
+                                            </h4>
+                                        </div>
+                                        <div className='col-4 d-flex justify-content-center'>
+                                            <span>
+                                                <img src={imageThree} alt='image1'/>
+                                            </span>
+                                            &nbsp;
+                                            <h4 style={{transform:"translate(0%,25%)",color: "#00173c"}}>
+                                                Innovative Technology
+                                            </h4>
+                                        </div>
+                                        <div className='col-4 d-flex justify-content-center'>
+                                            <span>
+                                                <img src={imageFour} alt='image1'/>
+                                            </span>
+                                            &nbsp;
+                                            <h4 style={{transform:"translate(0%,19%)",color: "#00173c"}}>
+                                                Treatment Success Guaranteed
+                                            </h4>
+                                        </div>
+                                    </Slider>
+                                </h2>
