@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom'
 function Main() {
 
     const [mobile, setmobile] = useState(false);
-    const [home, setHome] = useState(false);
     const [Services, setServices] = useState(false)
-    const [Pages, setPages] = useState(false)
     const [Blog, setBlog] = useState(false)
 
     return (
