@@ -134,54 +134,34 @@ function Main() {
                                                 <nav className="mean-nav">
                                                     <ul style={{ display: "block" }}>
                                                         <li className="has-sub">
-                                                            <Link to="/"> Home </Link>
-                                                            {home &&
-                                                                <ul style={{ display: "block" }}>
-
-                                                                    <li>
-                                                                        <Link to="/">Home Page 01</Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link to="/hometwo">Home Page 02</Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link to="/homethree">Home Page 03</Link>
-                                                                    </li>
-
-                                                                </ul>}
-
-                                                            <Link className={`mean-expand ${mobile && "mean-clicked"}`} to="#" onClick={() => { setHome(!home) }} style={{ fontSize: 18 }}>
-                                                                {home ? "-" : "+"}
-                                                            </Link>
+                                                            <Link to="/"> Casa </Link>
+                                                          
                                                         </li>
-                                                        <li>
-                                                            <Link to="/about">About Us</Link>
-                                                        </li>
+                                                        <li className='has-sub'>
+                                                    <Link to="/about">Chi siamo</Link>
+                                                </li>
                                                         <li className="has-sub">
-                                                            <Link to="/services">Services</Link>
+                                                            <Link to="/implantology">Servizi</Link>
                                                             {Services &&
                                                             <ul style={{ display: "block" }}>
                                                                 <li>
-                                                                    <Link to="/singleservice">Implantologia</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/singleservice">Corone Dentali e Protesi Dentali</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/singleservice"> Endodonzia</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/singleservice">Malattie Parondontali</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/singleservice">Ortodonzia Invisalign</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/singleservice">Faccette Dentali</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/services">Services</Link>
-                                                                </li>
+                                                        <Link to="/implantology">Implantologia</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/crown">Corone Dentali e Protesi Dentali</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/endodontics"> Endodonzia</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/periodontal-diseases">Malattie Parondontali</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/align-orthodontics">Ortodonzia Invisalign</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/dental-veneers">Faccette Dentali</Link>
+                                                    </li>
                                                             </ul>  
                                                             }
                                                             <Link className={`mean-expand ${mobile && "mean-clicked"}`} to="#" onClick={() => { setServices(!Services) }} style={{ fontSize: 18 }}>
@@ -189,46 +169,18 @@ function Main() {
                                                             </Link>
                                                         </li>
                                                         <li className="has-sub">
-                                                            <Link to="#">Pages</Link>
-                                                            {Pages && 
-                                                            <ul style={{ display: "block" }}>
-                                                                <li>
-                                                                    <Link to="/gallery">Gallery</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/pricing">Pricing</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/faql">Faq</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/team">Team</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/teamsingle">Team Details</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/shop">Shop</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/Shopdetails">Shop Details</Link>
-                                                                </li>
-                                                            </ul>
-                                                            }
-                                                            <Link className={`mean-expand ${Pages && "mean-clicked"}`} to="#" style={{ fontSize: 18 }} onClick={() => { setPages(!Pages) }}>
-                                                            {Pages ? "-" : "+"}
-                                                            </Link>
+                                                         <Link to="/reviews">Recensioni</Link>
                                                         </li>
                                                         <li className="has-sub">
-                                                            <Link to="blog.html">Blog</Link>
+                                                        <Link to="/dentaltourism">Turismo Dentale</Link>
                                                             {Blog && 
                                                             <ul style={{ display: "block" }}>
                                                                 <li>
-                                                                    <Link to="/blog">Blog</Link>
-                                                                </li>
-                                                                <li>
-                                                                    <Link to="/blogdetails">Blog Details</Link>
-                                                                </li>
+                                                            <Link to="/dentaltourism">Turismo Dentale</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="/get-quote">Come ricevere un preventivo</Link>
+                                                        </li>
                                                             </ul> 
                                                             }
                                                             <Link className={`mean-expand ${Blog && "mean-clicked"}`} to="#" style={{ fontSize: 18 }} onClick={() => { setBlog(!Blog) }} >
@@ -236,7 +188,7 @@ function Main() {
                                                             </Link>
                                                         </li>
                                                         <li className="mean-last">
-                                                            <Link to="/contact">Contact</Link>
+                                                            <Link to="/contact">Contattaci</Link>
                                                         </li>
                                                     </ul>
                                                 </nav>

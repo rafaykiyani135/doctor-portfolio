@@ -10,23 +10,24 @@ function First() {
             <div className="blog-details-wrap">
                 <div className="details__content pb-30">
                 <h2 className='heading-class'>
-                How to get a quote
+                Come ottenere un preventivo
                 </h2>
                 <p>
-                If you need dental treatment in our clinic we offer you complete and professional assistance for your dental problems. You can ask us for a no-obligation dental care quote to get an estimate of the costs. You will find a highly qualified staff and a dental care service that also includes other services. Included in the cost, in addition to the therapy, you will also receive a free stay for 2 people
+                Se hai bisogno di cure dentistiche nella nostra clinica ti offriamo un'assistenza completa e professionale per i tuoi problemi dentali. Puoi richiederci un preventivo senza impegno per le cure odontoiatriche per avere una stima dei costi. Troverai uno staff altamente qualificato e un servizio di cure odontoiatriche che comprende anche altri servizi. Compreso nel costo, oltre alla terapia, riceverai anche un soggiorno gratuito per 2 persone
                 </p>
                 <blockquote>
-                    <div className="blog__btn">
+                    <div className="d-flex justify-content-center">
                         <Link to="/contact" className="btn">
-                            REQUEST A QUOTE WITHOUT COMMITMENT
+                        RICHIEDI UN PREVENTIVO<br/>
+                         SENZA IMPEGNO
                         </Link>
                     </div>
                 </blockquote>
                 <h2 className='heading-class'>
-                Free Estimate
+                Preventivo gratuito
                 </h2>
                 <p>
-                Free first check-up Once you have filled in the medical history form, performed a 3D CT scan (2-3 days are sufficient) you will receive a personalized treatment plan, a detailed estimate and, if you wish, you can start immediately. Advantages - Free transfer from the airport and assistance in Italian even if you decide not to accept the quote. - You will have a detailed estimate and the possibility of starting the intervention immediately. - Sending a dental overview. - If you have a dental overview and would like to receive a remote estimate, you can send it to our official contacts
+                Primo controllo gratuito Una volta compilata la scheda anamnestica, eseguita una TAC 3D (sono sufficienti 2-3 giorni) riceverai un piano di trattamento personalizzato, un preventivo dettagliato e, se lo desideri, potrai iniziare subito. Vantaggi - Trasferimento gratuito dall'aeroporto e assistenza in italiano anche se decidi di non accettare il preventivo. - Avrai un preventivo dettagliato e la possibilità di iniziare subito l'intervento. - Invio di una panoramica dentale. - Se hai una panoramica dentale e desideri ricevere un preventivo a distanza, puoi inviarlo ai nostri contatti ufficiali
                 </p>
                 </div>
             </div>
