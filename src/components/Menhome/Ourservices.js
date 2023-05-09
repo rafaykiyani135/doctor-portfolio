@@ -20,13 +20,6 @@ import Slider from 'react-slick'
 
 function Ourservices() {
 
-    const images=[
-                <img src={ClinicOne} alt="clinicpicture"className='img-fluid sliderimage'/>,
-                <img src={ClinicTwo} alt="clinicpicture" className='img-fluid sliderimage'/>,
-                <img src={ClinicThree} alt="clinicpicture" className='img-fluid sliderimage'/>,
-                <img src={ClinicFour} alt="clinicpicture" className='img-fluid sliderimage'/>,
-                <img src={ClinicFive} alt="clinicpicture" className='img-fluid sliderimage'/>
-    ]
 
     const settings = {
         className: "sliderimage",
@@ -179,19 +172,19 @@ function Ourservices() {
                         <Slider {...settings}>
                 
                         <div>
-                            <img src={ClinicOne} className='img-fluid img sliderimage'/>
+                            <img src={ClinicOne} className='img-fluid img sliderimage' alt=''/>
                         </div>
                         <div>
-                            <img src={ClinicTwo} className='img-fluid img sliderimage'/>
+                            <img src={ClinicTwo} className='img-fluid img sliderimage' alt=''/>
                         </div>
                         <div>
-                            <img src={ClinicThree} className='img-fluid img sliderimage'/>
+                            <img src={ClinicThree} className='img-fluid img sliderimage' alt=''/>
                         </div>
                         <div>
-                            <img src={ClinicFour} className='img-fluid img sliderimage'/>
+                            <img src={ClinicFour} className='img-fluid img sliderimage' alt=''/>
                         </div>
                         <div>
-                            <img src={ClinicFive} className='img-fluid img sliderimage'/>
+                            <img src={ClinicFive} className='img-fluid img sliderimage' alt=''/>
                         </div>
                         </Slider>
                         </div>

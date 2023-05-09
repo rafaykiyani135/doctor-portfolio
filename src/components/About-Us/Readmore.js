@@ -75,19 +75,19 @@ Con un'ampia gamma di servizi Andent ha offerto in tutti questi anni la soluzion
                         <div className="slider-content justfiy-content-center sc">
                         <Slider {...settings}>
                         <div>
-                            <img src={imgone} className='img-fluid' style={{width:"50%",height:"auto"}}/>
+                            <img src={imgone} className='img-fluid' style={{width:"50%",height:"auto"}} alt="img-data"/>
                         </div>
                         <div>
-                            <img src={imgtwo} className='img-fluid ' style={{width:"50%",height:"auto"}}/>
+                            <img src={imgtwo} className='img-fluid ' style={{width:"50%",height:"auto"}} alt="img-data"/>
                         </div>
                         <div>
-                            <img src={imgthree} className='img-fluid ' style={{width:"50%",height:"auto"}}/>
+                            <img src={imgthree} className='img-fluid ' style={{width:"50%",height:"auto"}} alt="img-data"/>
                         </div>
                         <div>
-                            <img src={imgfour} className='img-fluid' style={{width:"50%",height:"auto"}}/>
+                            <img src={imgfour} className='img-fluid' style={{width:"50%",height:"auto"}} alt="img-data"/>
                         </div>
                         <div>
-                            <img src={imgfive} className='img-fluid' style={{width:"50%",height:"auto"}}/>
+                            <img src={imgfive} className='img-fluid' style={{width:"50%",height:"auto"}} alt="img-data"/>
                         </div>
                         </Slider>
                         </div>

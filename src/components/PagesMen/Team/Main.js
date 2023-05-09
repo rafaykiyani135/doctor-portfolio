@@ -6,9 +6,9 @@ function Main() {
   return (
     <>
            <Breadcrumb
-                   subtitle="Team"
-                   title="Home"
-                  subtitledown="Team"
+                   subtitle="Squadra"
+                   title="Casa"
+                  subtitledown="Squadra"
              />
 
              <Team/>

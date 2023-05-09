@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Logo from '../../assets/img/gallery/andent-logo.png'
 import { Link } from 'react-router-dom'
 
-
 function Main() {
 
     const [mobile, setmobile] = useState(false);
@@ -23,10 +22,6 @@ function Main() {
                                         <li>
                                             <i className="icon fal fa-envelope" />
                                             <span><a href="mailto:info@andentclinic.al">info@andentclinic.al</a></span>
-                                        </li>
-                                        <li>
-                                            <i className="icon fal fa-phone" />
-                                            <span>+393792993475(add whatsapplater)</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -61,7 +56,7 @@ function Main() {
                                     <div className="logo" style={{width:"300px",margin:"auto"}}>
                                         <Link to="/">
                                             <img src={Logo} alt="logo" />
-                                        </Link>
+                                            </Link>
                                     </div>
                                 </div>
                                 <div className="col-xl-7 col-lg-7">
@@ -75,7 +70,7 @@ function Main() {
                                                     <Link to="/about">Chi siamo</Link>
                                                 </li>
                                                 <li className="has-sub">
-                                                    <Link to="/service">Servizi</Link>
+                                                    <Link to="/implantology">Servizi</Link>
                                                     <ul>
                                                     <li>
                                                         <Link to="/implantology">Implantologia</Link>
@@ -99,39 +94,16 @@ function Main() {
                                                     </ul>
                                                 </li>
                                                 <li className="has-sub">
-                                                    <Link to="#">Pagine</Link>
-                                                    <ul>
-                                                        <li>
-                                                            <Link to="/gallery">Gallery</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/pricing">Pricing</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/faq">Faq</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/team">Team</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/teamdetails">Team Details</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/shop">Shop</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/Shopdetails">Shop Details</Link>
-                                                        </li>
-                                                    </ul>
+                                                    <Link to="/reviews">Recensioni</Link>
                                                 </li>
                                                 <li className="has-sub">
-                                                    <Link to="/blog">Blog</Link>
+                                                    <Link to="/dentaltourism">Turismo Dentale</Link>
                                                     <ul>
                                                         <li>
-                                                            <Link to="/blog">Blog</Link>
+                                                            <Link to="/dentaltourism">Turismo Dentale</Link>
                                                         </li>
                                                         <li>
-                                                            <Link to="/blogdetails">Blog Details</Link>
+                                                            <Link to="/get-quote">Come ricevere un preventivo</Link>
                                                         </li>
                                                     </ul>
                                                 </li>

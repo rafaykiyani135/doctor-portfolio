@@ -1,10 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect } from 'react'
 import Teamone from '../../assets/img/team/team01.png'
-import ProgressBar from "@ramonak/react-progress-bar";
 
 
 function Teamdetails() {
-    const firstbaar = useRef();
     // const [Value, setValue] = useState(0);
 
     useEffect(() => {

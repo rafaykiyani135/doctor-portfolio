@@ -3,9 +3,11 @@ import SliderOne from '../../assets/img/slider/slider-img.png'
 import { Link } from 'react-router-dom'
 
 
+
 function Main() {
   return (
     <>
+            
             <section id="home" className="slider-area fix p-relative">
                 <div className="slider-active">
                 <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: "url(img/slider/slider_bg.png)", backgroundSize: "cover"}}>
@@ -51,7 +53,6 @@ function Main() {
                 </div>
                 </div>
             </section>
-    
     </>
   )
 }

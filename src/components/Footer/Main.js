@@ -53,22 +53,22 @@ function Main() {
                                 <div className="footer-link">
                                 <ul>
                                     <li>
-                                    <Link to="/"> Home</Link>
+                                    <Link to="/"> Casa</Link>
                                     </li>
                                     <li>
-                                    <Link to="/about">About Us</Link>
+                                    <Link to="/about">Chi siamo</Link>
                                     </li>
                                     <li>
-                                    <Link to="/service">Services</Link>
+                                    <Link to="/Implantology">Servizi</Link>
                                     </li>
                                     <li>
-                                    <Link to="/gallery"> Project</Link>
+                                    <Link to="/team">La nostra squadra</Link>
                                     </li>
                                     <li>
-                                    <Link to="/team">Our Team</Link>
+                                    <Link to="/dentaltourism">Tourismo Dentale</Link>
                                     </li>
                                     <li>
-                                    <Link to="/blog">Latest Blog</Link>
+                                    <Link to="/get-quote">Richiedi un preventivo</Link>
                                     </li>
                                 </ul>
                                 </div>
@@ -119,7 +119,7 @@ function Main() {
                                     <li>
                                     <i className="icon fal fa-phone" />
                                     <p style={{transform:"translate(0%,45%)"}}>
-                                    +393792993475
+                                    +355 69 375 5065
                                     </p>
                                     </li>
                                     <li>

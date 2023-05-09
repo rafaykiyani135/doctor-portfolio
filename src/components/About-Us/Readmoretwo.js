@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import imgone from "../../assets/img/gallery/smile-andent.jpg"
 
-function Readmore_two(){
+function Readmoretwo(){
     return (
         <div>
             <div>
@@ -31,4 +30,4 @@ Ha conseguito il Master in Ortognatodonzia presso Medic line Stewart comprendend
     );
 }
 
-export default Readmore_two;
+export default Readmoretwo;

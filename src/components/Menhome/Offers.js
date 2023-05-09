@@ -14,7 +14,7 @@ function Offers(){
                     <div className="col-lg-2 rounded-corner" style={{background:"red",backgroundImage: `url(${ Bgimg })`}}>
                         <div>
                             <div className="icon offer-class" style={{padding:"25px"}}>
-                                <img src={iconone}/>
+                                <img src={iconone} alt=''/>
                             </div>
                             <div className="offer-class">
                                 <div>
@@ -37,7 +37,7 @@ function Offers(){
                     <div className="col-lg-2 rounded-corner" style={{background:"red",backgroundImage: `url(${ Bgimg })`}}>
                         <div>
                             <div className="icon offer-class" style={{padding:"25px"}}>
-                                <img src={icontwo}/>
+                                <img src={icontwo} alt=''/>
                             </div>
                             <div className="offer-class">
                                 <div>
@@ -60,7 +60,7 @@ function Offers(){
                     <div className="col-lg-2 rounded-corner" style={{background:"red",backgroundImage: `url(${ Bgimg })`}}>
                         <div>
                             <div className="icon offer-class" style={{padding:"25px"}}>
-                                <img src={iconthree}/>
+                                <img src={iconthree} alt=''/>
                             </div>
                             <div className="offer-class">
                                 <div>
@@ -84,7 +84,7 @@ Transfer dall’aeroporto: al tuo arrivo all’aeroporto troverai ad attenderti 
                     <div className="col-lg-2 rounded-corner" style={{background:"red",backgroundImage: `url(${ Bgimg })`}}>
                         <div>
                             <div className="icon offer-class" style={{padding:"25px"}}>
-                                <img src={iconfour}/>
+                                <img src={iconfour} alt=''/>
                             </div>
                             <div className="offer-class">
                                 <div>

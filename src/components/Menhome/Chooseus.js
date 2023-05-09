@@ -1,6 +1,4 @@
-import React , { useState } from 'react'
-import { Link } from 'react-router-dom';
-import SliderOne from '../../assets/img/slider/slider-img.png'
+import React from 'react'
 import Slider from 'react-slick';
 import imageOne from '../../assets/img/gallery/chooseus01.png'
 import imageTwo from '../../assets/img/gallery/chooseus02.png'

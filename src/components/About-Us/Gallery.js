@@ -33,34 +33,34 @@ function Gallery(){
                         <div className="responsive">
                         <Carousel cols={1} rows={1} gap={10} loop containerStyle={{width:"100%"}} autoplay={4000}>
                             <Carousel.Item>
-                                <img width="100%" src={staffone} />
+                                <img width="100%" src={staffone} alt="staffimage" />
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img width="100%" src={stafftwo} />
+                                <img width="100%" src={stafftwo} alt="staffimage"/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img width="100%" src={staffthree}/>
+                                <img width="100%" src={staffthree} alt="staffimage"/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img width="100%" src={stafffour}/>
+                                <img width="100%" src={stafffour} alt="staffimage"/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img width="100%" src={stafffive}/>
+                                <img width="100%" src={stafffive} alt="staffimage"/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img width="100%" src={apartone}/>
+                                <img width="100%" src={apartone} alt="staffimage"/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img width="100%" src={aparttwo}/>
+                                <img width="100%" src={aparttwo} alt="staffimage"/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img width="100%" src={apartthree}/>
+                                <img width="100%" src={apartthree} alt="staffimage"/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img width="100%" src={apartfour}/>
+                                <img width="100%" src={apartfour} alt="staffimage"/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img width="100%" src={apartfive}/>
+                                <img width="100%" src={apartfive} alt="staffimage"/>
                             </Carousel.Item>
                             </Carousel>
                         </div>

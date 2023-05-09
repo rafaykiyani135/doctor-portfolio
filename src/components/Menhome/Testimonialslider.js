@@ -3,11 +3,7 @@ import TestimonialAvtOne from '../../assets/img/testimonial/testi_avatar.png'
 import TestimonialAvtTwo from '../../assets/img/testimonial/testi_avatar_02.png'
 import ReviewIconOne from '../../assets/img/testimonial/review-icon.png'
 import TestimonialIconTwo from '../../assets/img/testimonial/qt-icon.png'
-import Iconslider from '../../assets/img/icon/pr-icon1.png'
-import IconSlidertwo from '../../assets/img/icon/pr-icon2.png'
-import IconSliderthree from '../../assets/img/icon/pr-icon3.png'
 import Slider from "react-slick";
-import { Link } from 'react-router-dom'
 
 
 function Testimonialslider() {

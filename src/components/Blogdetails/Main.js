@@ -7,9 +7,9 @@ function Main() {
   return (
     <>
         <Breadcrumb
-            subtitle="Blog Details"
-            title="Home"
-            subtitledown="Blog Details"
+            subtitle="Come ottenere un preventivo"
+            title="Casa"
+            subtitledown="Come ottenere un preventivo"
         />
 
         <section className="inner-blog b-details-p pt-120 pb-120">

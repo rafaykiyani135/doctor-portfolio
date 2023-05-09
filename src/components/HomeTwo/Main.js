@@ -1,6 +1,4 @@
 import React from 'react'
-import SilderImg from '../../assets/img/slider/slider_img04.jpg'
-import SliderImgtwo from '../../assets/img/slider/slider_img03.jpg'
 import Ourservish from '../Menhome/Ourservices'
 import Book from '../Menhome/Booking'
 import Testimo from '../Menhome/Testimonialslider'

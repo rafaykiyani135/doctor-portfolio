@@ -2,19 +2,17 @@ import React from 'react'
 import First from '../Menblog/First'
 import Second from '../Menblog/Second'
 import Sideone from '../Menblog/Sideone'
-import Three from '../Menblog/Three'
 // import Search from '../Menblog/Search'
 import Bredcm from '../Menhome/breadcrumb'
-import Pagination from '../Pagination/Main'
 
 
 function Main() {
   return (
     <>
       <Bredcm
-          subtitle="Blog"
-          title="Home"
-          subtitledown="Blog" 
+          subtitle="Turismo Dentale"
+          title="Casa"
+          subtitledown="Turismo Dentale" 
         />
         
       <section className="inner-blog pt-120 pb-120">
@@ -23,8 +21,6 @@ function Main() {
               <div className="col-lg-8">
                   <First/>
                   <Second/>
-                  <Three/>
-                  <Pagination/>
               </div>
               <div className="col-sm-12 col-md-12 col-lg-4">
                 <aside className="sidebar-widget">

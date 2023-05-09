@@ -5,10 +5,9 @@ import Footer from '../components/Footer/Main'
 import Home from '../components/Home/Main'
 import About from '../components/About-Us/Main'
 import Contact from '../components/Contact-Us/Main'
-import Blog from '../components/Blog/Main';
-import BlogDdeatils from '../components/Blogdetails/Main'
+import Dentaltour from '../components/Blog/Main';
+import Getquote from '../components/Blogdetails/Main'
 import Service from '../components/Service/Main'
-import Gallery from '../components/Pages/Gallarymen'
 import Pricing from '../components/PagesMen/Pricing/Main';
 import Faq from '../components/PagesMen/Faq/Main'
 import Team from '../components/PagesMen/Team/Main'
@@ -23,6 +22,7 @@ import Endodontics from "../components/ServisesecMen/Endodontics"
 import Periodontal from "../components/ServisesecMen/Periodontal"
 import Align from "../components/ServisesecMen/Align";
 import Veneer from "../components/ServisesecMen/Veneer";
+import Review from "../components/ServisesecMen/Reviews";
 
 function Index() {
 
@@ -35,6 +35,7 @@ function Index() {
     <>
       <Header/>
       <Routes>
+        <Route path='/reviews' element={<Review/>}/>
         <Route path='/dental-veneers' element={<Veneer/>}/>
         <Route path='/periodontal-diseases' element={<Periodontal/>}/>
         <Route path='/align-orthodontics' element={<Align/>}/>
@@ -44,10 +45,9 @@ function Index() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={ <Contact/>} />
-        <Route path="/blog" element={ <Blog/>} />
-        <Route path="/blogdetails" element={ <BlogDdeatils/>} />
+        <Route path="/dentaltourism" element={ <Dentaltour/>} />
+        <Route path="/get-quote" element={ <Getquote/>} />
         <Route path="/service" element={ <Service/>} />
-        <Route path="/gallery" element={ <Gallery/>} />
         <Route path="/pricing" element={ <Pricing/>} />
         <Route path="/faq" element={ <Faq/>} />
         <Route path="/team" element={ <Team/>} />
