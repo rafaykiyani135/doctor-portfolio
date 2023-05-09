@@ -29,18 +29,15 @@ function Main() {
                             <div className="col-lg-4 col-md-4 d-none d-lg-block text-right">
                                 <div className="header-social">
                                     <span>
-                                        <Link to='https://www.facebook.com/' title="Facebook">
+                                        <a href='https://web.facebook.com/andentclinic/photos/?paipv=0&eav=Afayyl7xCas_ZymSGnK2auprjcZm9-9HW84Tlkmt6Ju_bChmyyv-uiaqCYHOQk99a_o&_rdc=1&_rdr' title="Facebook">
                                             <i className="fab fa-facebook-f" />
-                                        </Link>
-                                        <Link to='https://www.instagram.com/' title="LinkedIn">
+                                        </a>
+                                        <a href='https://www.instagram.com/andent_clinic/?hl=en' title="LinkedIn">
                                             <i className="fab fa-instagram" />
-                                        </Link>
-                                        <Link to='https://twitter.com/' title="Twitter">
-                                            <i className="fab fa-twitter" />
-                                        </Link>
-                                        <Link to='https://www.youtube.com/' title="Twitter">
+                                        </a>
+                                        <a href='https://www.youtube.com/@andentclinic3059' title="Twitter">
                                             <i className="fab fa-youtube" />
-                                        </Link>
+                                        </a>
                                     </span>
                                 </div>
                             </div>

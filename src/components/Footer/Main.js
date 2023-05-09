@@ -149,15 +149,15 @@ function Main() {
                         <div className="col-lg-4"></div>
                         <div className="col-lg-4">
                         <div className="footer-social">
-                            <a href='https://www.facebook.com/'>
-                                <i className="fab fa-facebook-f" />
-                            </a>
-                            <a href='https://www.instagram.com/'>
-                                <i className="fab fa-instagram" />
-                            </a>
-                            <a href='https://twitter.com/'>
-                                <i className="fab fa-twitter" />
-                            </a>
+                        <a href='https://web.facebook.com/andentclinic/photos/?paipv=0&eav=Afayyl7xCas_ZymSGnK2auprjcZm9-9HW84Tlkmt6Ju_bChmyyv-uiaqCYHOQk99a_o&_rdc=1&_rdr' title="Facebook">
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                        <a href='https://www.instagram.com/andent_clinic/?hl=en' title="LinkedIn">
+                                            <i className="fab fa-instagram" />
+                                        </a>
+                                        <a href='https://www.youtube.com/@andentclinic3059' title="Twitter">
+                                            <i className="fab fa-youtube" />
+                                        </a>
                         </div>
                         </div>
                     </div>
