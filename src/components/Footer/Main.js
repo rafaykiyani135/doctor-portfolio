@@ -13,9 +13,6 @@ function Main() {
                         <div className="row justify-content-between">
                             <div className="col-xl-4 col-lg-4 col-sm-6">
                             <div className="footer-widget mb-30">
-                                <div className="f-widget-title" style={{width:"700px",height:"auto",transform:"translate(0,-15%)"}}>
-                                    <img src={Logo} alt="logo" />
-                                </div>
                                 <div className="footer-link">
                                 <p>
                                     Mauris non nisi semper, lacinia neque in, dapibus leo. Curabitur
@@ -103,9 +100,9 @@ function Main() {
                                 </div>
                             </div>
                             </div>
-                            <div className="col-xl-3 col-lg-3 col-sm-6" style={{textAlign:"center"}}>
+                            <div className="col-xl-3 col-lg-3 col-sm-6">
                             <div className="footer-widget mb-30">
-                                <div className="f-widget-title" style={{textAlign:"center"}}>
+                                <div className="f-widget-title">
                                 <h2> &nbsp; &nbsp;  &nbsp; Contattaci</h2>
                                 </div>
                                 <div className="f-contact">

@@ -3,10 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import "./assets/fontawesome/webfonts/OktaNeue-Black.ttf"
-import "./assets/fontawesome/webfonts/OktaNeue-Bold.ttf"
-import "./assets/fontawesome/webfonts/OktaNeue-Medium.ttf"
-import "./assets/fontawesome/webfonts/OktaNeue-Normal.ttf"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -11,24 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-@font-face {
-  font-family: "Medium";
-  src:local(OktaNeue-Medium),
-   url(./assets/fontawesome/webfonts/OktaNeue-Medium.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Black";
-  src: local(OktaNeue-Black),
-   url(./assets/fontawesome/webfonts/OktaNeue-Black.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Bold";
-  src: local(OktaNeue-Bold),
-   url(./assets/fontawesome/webfonts/OktaNeue-Bold.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Normal";
-  src: local(OktaNeue-Normal),
-   url(./assets/fontawesome/webfonts/OktaNeue-Normal.ttf) format("truetype");
-}

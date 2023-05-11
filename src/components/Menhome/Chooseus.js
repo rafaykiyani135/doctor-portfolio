@@ -15,6 +15,7 @@ function ChooseUs() {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows:false,
+        dots:false,
         responsive: [
             {
               breakpoint: 1024,
@@ -22,7 +23,6 @@ function ChooseUs() {
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 infinite: true,
-                dots: true
               }
             },
             {
@@ -46,65 +46,63 @@ function ChooseUs() {
     return (
         <>
             <section id="home" className="slider-area fix p-relative">
-                   <div className="container" style={{textAlign:"center"}}>
-                    <div className="row align-items-center">
-                        <div>
-                        <div className="col-lg-12 section-title center-align mb-50 text-center font-face-andent-font-normal choose-us" style={{paddingTop:"20px"}}>
-                            <h5 data-animation="fadeInUp" data-delay=".4s" style={{fontSize:"35px"}} >
-                            Perché scegliere Andent
-                            </h5>
-                            <br/>
-                            <br/>
-                            <p data-animation="fadeInUp" data-delay=".6s" style={{fontSize:"20px"}}>
-                            Il nostro staff è composto dai migliori chirurghi maxillo-facciali specializzati nelle migliori università europee. Il nostro staff è diretto dalla Dott.ssa Anduela Çurmaku, uno dei migliori dentisti in Albania.
-                            </p>
-                            <div style={{paddingTop:"75px"}}>
-                                <h2>
-                                    <Slider {...settings}>
-                                        <div className='col-4 d-flex justify-content-center'>
-                                            <span>
-                                                <img src={imageOne} alt='image1'/>
-                                            </span>
-                                            &nbsp;
-                                            <h4 style={{transform:"translate(0%,25%)",color: "#00173c"}}>
-                                                Free Stay for 2 People
-                                            </h4>
-                                        </div>
-                                        <div className='col-4 d-flex justify-content-center'>
-                                            <span>
-                                                <img src={imageTwo} alt='image1'/>
-                                            </span>
-                                            &nbsp;
-                                            <h4 style={{transform:"translate(0%,25%)",color: "#00173c"}}>
-                                                Certified Dentists
-                                            </h4>
-                                        </div>
-                                        <div className='col-4 d-flex justify-content-center'>
-                                            <span>
-                                                <img src={imageThree} alt='image1'/>
-                                            </span>
-                                            &nbsp;
-                                            <h4 style={{transform:"translate(0%,25%)",color: "#00173c"}}>
-                                                Innovative Technology
-                                            </h4>
-                                        </div>
-                                        <div className='col-4 d-flex justify-content-center'>
-                                            <span>
-                                                <img src={imageFour} alt='image1'/>
-                                            </span>
-                                            &nbsp;
-                                            <h4 style={{transform:"translate(0%,19%)",color: "#00173c"}}>
-                                                Treatment Success Guaranteed
-                                            </h4>
-                                        </div>
-                                    </Slider>
-                                </h2>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                   </div>
-            </section>
+  <div className="container" style={{textAlign:"center"}}>
+    <div className="row align-items-center">
+      <div className="col-lg-12 section-title center-align mb-50 text-center font-face-andent-font-normal choose-us" style={{paddingTop:"20px"}}>
+        <h5 data-animation="fadeInUp" data-delay=".4s" style={{fontSize:"35px"}}>
+          Perché scegliere Andent
+        </h5>
+        <br/>
+        <br/>
+        <p data-animation="fadeInUp" data-delay=".6s" style={{fontSize:"20px"}}>
+          Il nostro staff è composto dai migliori chirurghi maxillo-facciali specializzati nelle migliori università europee. Il nostro staff è diretto dalla Dott.ssa Anduela Çurmaku, uno dei migliori dentisti in Albania.
+        </p>
+        <div style={{paddingTop:"75px"}}>
+          <h2>
+            <Slider {...settings}>
+              <div className='col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center'>
+                <span>
+                  <img src={imageOne} alt='image1'/>
+                </span>
+                &nbsp;
+                <h4 style={{transform:"translate(0%,25%)",color: "#00173c"}}>
+                  Free Stay for 2 People
+                </h4>
+              </div>
+              <div className='col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center'>
+                <span>
+                  <img src={imageTwo} alt='image1'/>
+                </span>
+                &nbsp;
+                <h4 style={{transform:"translate(0%,25%)",color: "#00173c"}}>
+                  Certified Dentists
+                </h4>
+              </div>
+              <div className='col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center'>
+                <span>
+                  <img src={imageThree} alt='image1'/>
+                </span>
+                &nbsp;
+                <h4 style={{transform:"translate(0%,25%)",color: "#00173c"}}>
+                  Innovative Technology
+                </h4>
+              </div>
+              <div className='col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center'>
+                <span>
+                  <img src={imageFour} alt='image1'/>
+                </span>
+                &nbsp;
+                <h4 style={{transform:"translate(0%,19%)",color: "#00173c"}}>
+                  Treatment Success Guaranteed
+                </h4>
+              </div>
+            </Slider>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     
 
         </>

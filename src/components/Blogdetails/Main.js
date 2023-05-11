@@ -14,13 +14,8 @@ function Main() {
 
         <section className="inner-blog b-details-p pt-120 pb-120">
              <div className="container"> 
-                <div className="row">
+                <div className="row justify-content-center">
                    <First/>
-                <div className="col-sm-12 col-md-12 col-lg-4">
-                    <aside className="sidebar-widget">
-                        <Sideone/>
-                    </aside>
-                </div>
                 </div>
              </div>
         </section>

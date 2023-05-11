@@ -186,7 +186,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "OktaNeue-Normal";
+    font-family: 'Poppins', sans-serif;
 	color: #00173c;
 	margin-top: 0px;
 	font-style: normal;
@@ -10901,20 +10901,4 @@ color: #fff;
     .mean-bar{
         display: none;
     }
-  }
-
-  
-  .font-face-andent-font-medium{
-    font-family: "OktaNeue-Medium" ;
-  }
-  
-  .font-face-andent-font-black{
-    font-family: "OktaNeue-Black" ;
-  }
-  
-  .font-face-andent-font-bold{
-    font-family: "OktaNeue-Bold" ;
-  }
-  .font-face-andent-font-normal{
-    font-family: "OktaNeue-Normal" ;
   }

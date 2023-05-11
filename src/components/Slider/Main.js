@@ -8,12 +8,12 @@ function Main() {
   return (
     <>
             
-            <section id="home" className="slider-area fix p-relative">
+            <section id="home" className="slider-area fix p-relative" style={{paddingTop:"100px",paddingBottom:"100px"}}>
                 <div className="slider-active">
                 <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: "url(img/slider/slider_bg.png)", backgroundSize: "cover"}}>
                    <div className="container">
-                    <div className="row justify-content-between">
-                        <div className="col-lg-6 col-md-6">
+                    <div className="row justify-content-left">
+                        <div className="col-lg-6 col-md-12">
                         <div className="slider-content s-slider-content mt-20 font-face-andent-font-normal" style={{paddingTop:"20px"}}>
                             <h5 data-animation="fadeInUp" data-delay=".4s">
                             Benvenuto ad Andent
@@ -37,9 +37,9 @@ function Main() {
                             </div>
                         </div>
                         </div>
-                        <div className="col-lg-5 col-md-5 p-relative ">
+                        <div className="col-lg-5 col-md-10 col-10  p-relative d-flex justify-content-center my-auto">
                         <div className="banner-img img-fluid"style={{maxWidth:"100%",height:"auto"}}> 
-                            <img src={SliderOne} className="img img-fluid"alt="banner" />
+                            <img src={SliderOne} className="img img-fluid"alt="banner" style={{transform:"translate(0%,0%)"}}/>
                         </div>
                         <div className="s-aliment-1 ">
                             <div className="aliment-content">

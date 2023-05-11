@@ -10,7 +10,7 @@ import "react-alice-carousel/lib/alice-carousel.css"
 import ClinicOne from '../../assets/img/gallery/clinic01.jpg'
 import ClinicTwo from '../../assets/img/gallery/clinic02.jpg'
 import ClinicThree from '../../assets/img/gallery/clinic03.jpg'
-import ClinicFour from '../../assets/img/gallery/clinic04.jpg'
+import ClinicFour from '../../assets/img/gallery/s1.jpg'
 import ClinicFive from '../../assets/img/gallery/clinic05.jpg'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -165,47 +165,44 @@ function Ourservices() {
          </section>
 
          <section className="about-area about-p pb-120 p-relative fix">
-            <div className="container justify-content-center">
-                    <div className="row justify-content-center align-items-center">
-                    <div className="col-lg-6 col-md-12 col-sm-12 justify-content-middle" >
-                        <div className="s-about-img p-relative  wow fadeInLeft animated text-center sc" data-animation="fadeInLeft" data-delay=".4s">
-                        <Slider {...settings}>
-                
-                        <div>
-                            <img src={ClinicOne} className='img-fluid img sliderimage' alt=''/>
-                        </div>
-                        <div>
-                            <img src={ClinicTwo} className='img-fluid img sliderimage' alt=''/>
-                        </div>
-                        <div>
-                            <img src={ClinicThree} className='img-fluid img sliderimage' alt=''/>
-                        </div>
-                        <div>
-                            <img src={ClinicFour} className='img-fluid img sliderimage' alt=''/>
-                        </div>
-                        <div>
-                            <img src={ClinicFive} className='img-fluid img sliderimage' alt=''/>
-                        </div>
-                        </Slider>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12">
-                        <div className="about-content s-about-content  wow fadeInRight  animated"  data-animation="fadeInRight" data-delay=".4s" >
-                        <div className="about-title second-title pb-25" style={{textAlign:"center"}}>
-                            <h2>Ci prendiamo cura della tua salute dentale</h2>
-                        </div>
-                        <p>
-                        Servizio di cure odontoiatriche presso la Clinica Andent. Il Servizio si occupa della diagnosi e cura delle patologie del cavo orale che richiedono un trattamento chirurgico-ricostruttivo; effettua inoltre diagnosi di patologie che interessano più in generale il distretto orale e maxillo-facciale.
-
-Diagnosi delle lesioni della mucosa orale (lesioni infiammatorie, preneoplastiche, neoplastiche) e trattamento delle stesse con protocollo tradizionale o con l'utilizzo di altre tecniche.
-
-Diagnosi e trattamento chirurgico delle patologie dentali (estrazione dei denti, trattamento chirurgico o chirurgico-ortodontico delle inclusioni dentali, patologia periapicale).
-                        </p>
-                        </div>
-                    </div>
-                    </div>
+  <div className="container">
+    <div className="row align-items-center">
+      <div className="col-lg-6 col-md-12 col-sm-12 text-center">
+        <div className="s-about-img p-relative wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+          <Slider {...settings}>
+            <div>
+              <img src={ClinicOne} className="img-fluid mx-auto d-block sliderimage" alt=""/>
             </div>
-         </section>
+            <div>
+              <img src={ClinicTwo} className="img-fluid mx-auto d-block sliderimage" alt=""/>
+            </div>
+            <div>
+              <img src={ClinicThree} className="img-fluid mx-auto d-block sliderimage" alt=""/>
+            </div>
+            <div>
+              <img src={ClinicFour} className="img-fluid mx-auto d-block sliderimage" alt=""/>
+            </div>
+            <div>
+              <img src={ClinicFive} className="img-fluid mx-auto d-block sliderimage" alt=""/>
+            </div>
+          </Slider>
+        </div>
+      </div>
+      <div className="col-lg-6 col-md-12 col-sm-12">
+        <div className="about-content s-about-content wow fadeInRight animated" data-animation="fadeInRight" data-delay=".4s">
+          <div className="about-title second-title pb-25 text-center">
+            <h2>Ci prendiamo cura della tua salute dentale</h2>
+          </div>
+          <p>
+            Servizio di cure odontoiatriche presso la Clinica Andent. Il Servizio si occupa della diagnosi e cura delle patologie del cavo orale che richiedono un trattamento chirurgico-ricostruttivo; effettua inoltre diagnosi di patologie che interessano più in generale il distretto orale e maxillo-facciale.
+            Diagnosi delle lesioni della mucosa orale (lesioni infiammatorie, preneoplastiche, neoplastiche) e trattamento delle stesse con protocollo tradizionale o con l'utilizzo di altre tecniche.
+            Diagnosi e trattamento chirurgico delle patologie dentali (estrazione dei denti, trattamento chirurgico o chirurgico-ortodontico delle inclusioni dentali, patologia periapicale).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     </>
   )

@@ -123,77 +123,76 @@ function Main() {
                                     </div>
                                 </div>
                                 <div className="col-12">
-                                    <div className="mobile-menu mean-container">
-                                        <div className="mean-bar">
-                                            <Link to="#" onClick={() => setmobile(!mobile)} className={`meanmenu-reveal ${mobile && "meanclose"}`} style={{ right: "0px", left: "auto", textAlign: "center", textIndent: "0px", fontSize: "18px" }}>
-                                                {mobile ? "X" : <span><span><span></span></span></span>}
-                                            </Link>
-                                            {mobile &&
-                                                <nav className="mean-nav">
-                                                    <ul style={{ display: "block" }}>
-                                                        <li className="has-sub">
-                                                            <Link to="/"> Casa </Link>
-                                                          
-                                                        </li>
-                                                        <li className='has-sub'>
-                                                    <Link to="/about">Chi siamo</Link>
-                                                </li>
-                                                        <li className="has-sub">
-                                                            <Link to="/implantology">Servizi</Link>
-                                                            {Services &&
-                                                            <ul style={{ display: "block" }}>
-                                                                <li>
-                                                        <Link to="/implantology">Implantologia</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/crown">Corone Dentali e Protesi Dentali</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/endodontics"> Endodonzia</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/periodontal-diseases">Malattie Parondontali</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/align-orthodontics">Ortodonzia Invisalign</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/dental-veneers">Faccette Dentali</Link>
-                                                    </li>
-                                                            </ul>  
-                                                            }
-                                                            <Link className={`mean-expand ${mobile && "mean-clicked"}`} to="#" onClick={() => { setServices(!Services) }} style={{ fontSize: 18 }}>
-                                                            {Services ? "-" : "+"}
-                                                            </Link>
-                                                        </li>
-                                                        <li className="has-sub">
-                                                         <Link to="/reviews">Recensioni</Link>
-                                                        </li>
-                                                        <li className="has-sub">
-                                                        <Link to="/dentaltourism">Turismo Dentale</Link>
-                                                            {Blog && 
-                                                            <ul style={{ display: "block" }}>
-                                                                <li>
-                                                            <Link to="/dentaltourism">Turismo Dentale</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/get-quote">Come ricevere un preventivo</Link>
-                                                        </li>
-                                                            </ul> 
-                                                            }
-                                                            <Link className={`mean-expand ${Blog && "mean-clicked"}`} to="#" style={{ fontSize: 18 }} onClick={() => { setBlog(!Blog) }} >
-                                                                +
-                                                            </Link>
-                                                        </li>
-                                                        <li className="mean-last">
-                                                            <Link to="/contact">Contattaci</Link>
-                                                        </li>
-                                                    </ul>
-                                                </nav>
-                                            }
-                                        </div>
-                                    </div>
-                                </div>
+  <div className="mobile-menu mean-container">
+    <div className="mean-bar">
+      <Link to="#" onClick={() => setmobile(!mobile)} className={`meanmenu-reveal ${mobile && "meanclose"}`} style={{ right: "0px", left: "auto", textAlign: "center", textIndent: "0px", fontSize: "18px" }}>
+        {mobile ? "X" : <span><span><span></span></span></span>}
+      </Link>
+      {mobile &&
+        <nav className="mean-nav">
+          <ul>
+            <li className="has-sub">
+              <Link to="/"> Casa </Link>
+            </li>
+            <li className='has-sub'>
+              <Link to="/about">Chi siamo</Link>
+            </li>
+            <li className="has-sub">
+              <Link to="/implantology">Servizi</Link>
+              {Services &&
+                <ul>
+                  <li>
+                    <Link to="/implantology">Implantologia</Link>
+                  </li>
+                  <li>
+                    <Link to="/crown">Corone Dentali e Protesi Dentali</Link>
+                  </li>
+                  <li>
+                    <Link to="/endodontics"> Endodonzia</Link>
+                  </li>
+                  <li>
+                    <Link to="/periodontal-diseases">Malattie Parondontali</Link>
+                  </li>
+                  <li>
+                    <Link to="/align-orthodontics">Ortodonzia Invisalign</Link>
+                  </li>
+                  <li>
+                    <Link to="/dental-veneers">Faccette Dentali</Link>
+                  </li>
+                </ul>  
+              }
+              <Link className={`mean-expand ${mobile && "mean-clicked"}`} to="#" onClick={() => { setServices(!Services) }} >
+                {Services ? "-" : "+"}
+              </Link>
+            </li>
+            <li className="has-sub">
+              <Link to="/reviews">Recensioni</Link>
+            </li>
+            <li className="has-sub">
+              <Link to="/dentaltourism">Turismo Dentale</Link>
+              {Blog && 
+                <ul>
+                  <li>
+                    <Link to="/dentaltourism">Turismo Dentale</Link>
+                  </li>
+                  <li>
+                    <Link to="/get-quote">Come ricevere un preventivo</Link>
+                  </li>
+                </ul> 
+              }
+              <Link className={`mean-expand ${Blog && "mean-clicked"}`} to="#" onClick={() => { setBlog(!Blog) }} >
+                {Blog ? "-" : "+"}
+              </Link>
+            </li>
+            <li className="mean-last">
+              <Link to="/contact">Contattaci</Link>
+            </li>
+          </ul>
+        </nav>
+      }
+    </div>
+  </div>
+</div>
                             </div>
                         </div>
                     </div>

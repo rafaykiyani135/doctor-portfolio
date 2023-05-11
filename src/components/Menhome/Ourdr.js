@@ -75,7 +75,7 @@ function Ourdr() {
                                 </div>
                                 <div className="team-info">
                                     <h4>
-                                        <Link to="team-single.html">Anduela Curmaku</Link>
+                                        Anduela Curmaku
                                     </h4>
                                     <p>Odontoiatria</p>
                                     <div className="team-social">
@@ -110,7 +110,7 @@ function Ourdr() {
                                 </div>
                                 <div className="team-info">
                                     <h4>
-                                        <Link to="team-single.html">Blerta Curmaku</Link>
+                                        Blerta Curmaku
                                     </h4>
                                     <p>Segretaria</p>
                                     <div className="team-social">
@@ -145,7 +145,7 @@ function Ourdr() {
                                 </div>
                                 <div className="team-info">
                                     <h4>
-                                        <Link to="team-single.html">Ermal Cuadari</Link>
+                                        Ermal Cuadari
                                     </h4>
                                     <p>Odontotecnico</p>
                                     <div className="team-social">
@@ -180,7 +180,7 @@ function Ourdr() {
                                 </div>
                                 <div className="team-info">
                                     <h4>
-                                        <Link to="team-single.html">Laurent Bixheku</Link>
+                                        Laurent Bixheku
                                     </h4>
                                     <p>Odontoiatria</p>
                                     <div className="team-social">
@@ -215,7 +215,7 @@ function Ourdr() {
                                 </div>
                                 <div className="team-info">
                                     <h4>
-                                        <Link to="team-single.html">Leonard Maci</Link>
+                                        Leonard Maci
                                     </h4>
                                     <p>Coordinatore della clinica per il turismo dentale</p>
                                     <div className="team-social">
@@ -250,7 +250,7 @@ function Ourdr() {
                                 </div>
                                 <div className="team-info">
                                     <h4>
-                                        <Link to="team-single.html">Manuela Manjani</Link>
+                                        Manuela Manjani
                                     </h4>
                                     <p>Odontoiatria</p>
                                     <div className="team-social">
@@ -285,7 +285,7 @@ function Ourdr() {
                                 </div>
                                 <div className="team-info">
                                     <h4>
-                                        <Link to="team-single.html">Marvin Dedaj</Link>
+                                        Marvin Dedaj
                                     </h4>
                                     <p>Assistente dentista</p>
                                     <div className="team-social">
@@ -320,7 +320,7 @@ function Ourdr() {
                                 </div>
                                 <div className="team-info">
                                     <h4>
-                                        <Link to="team-single.html">Rudina Bitri</Link>
+                                        Rudina Bitri
                                     </h4>
                                     <p>Addetto alla reception</p>
                                     <div className="team-social">
@@ -355,7 +355,7 @@ function Ourdr() {
                                 </div>
                                 <div className="team-info">
                                     <h4>
-                                        <Link to="team-single.html">Safjela Baja</Link>
+                                       Safjela Baja
                                     </h4>
                                     <p>Odontoiatria</p>
                                     <div className="team-social">
