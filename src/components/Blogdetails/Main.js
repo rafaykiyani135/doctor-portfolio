@@ -1,7 +1,6 @@
 import React from 'react'
 import Breadcrumb from '../Menhome/breadcrumb'
 import First from '../Blogdetailsmen/First'
-import Sideone from '../Menblog/Sideone'
 
 function Main() {
   return (

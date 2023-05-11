@@ -3,7 +3,6 @@ import iconone from "../../assets/img/gallery/off01.png"
 import icontwo from "../../assets/img/gallery/off02.png"
 import iconthree from "../../assets/img/gallery/off3.png"
 import iconfour from "../../assets/img/gallery/off4.png"
-import Bgimg from '../../assets/img/bg/call-bg.png'
 import { Link } from "react-router-dom"
 
 
